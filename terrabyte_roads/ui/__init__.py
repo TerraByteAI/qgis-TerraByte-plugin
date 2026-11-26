@@ -1,0 +1,1 @@
+"""Dock widget and dialogs."""

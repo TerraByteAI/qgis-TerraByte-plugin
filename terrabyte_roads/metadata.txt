@@ -1,0 +1,19 @@
+[general]
+name=TerraByte Road Extractor
+qgisMinimumVersion=3.44
+qgisMaximumVersion=4.99
+description=Draw roads, rail, waterways and power lines from your imagery. Requires a TerraByte account; the imagery you choose is uploaded to TerraByte's cloud service to run the model and is not kept.
+about=Road Extractor draws seven line types (highway, local road, path, railway, waterway, runway and power line) from an aerial or satellite raster you already have in QGIS. A TerraByte account is required: sign in with it, pick a raster, draw a rectangle and run the model. The imagery inside the rectangle is uploaded to TerraByte's cloud service to run the model and is not kept; the lines come back to the map. Keep the line types you want, delete the lines you do not, and export a GeoPackage, GeoJSON or Shapefile layer. Each run uses tiles from your monthly allowance, and the run check shows the tiles before you start. Needs an internet connection.
+version=0.5.2
+author=TerraByte
+email=info@terrabyte.ai
+homepage=https://terrabyte.ai
+repository=https://github.com/TerraByteAI/qgis-TerraByte-plugin
+tracker=https://github.com/TerraByteAI/qgis-TerraByte-plugin/issues
+tags=roads,road extraction,roads detection,vectorization,aerial imagery,satellite imagery,deep learning,remote sensing
+category=Raster
+icon=icon.png
+experimental=False
+deprecated=False
+hasProcessingProvider=no
+license=AGPL-3.0-only
